@@ -4,3 +4,6 @@ st.sidebar.title("Parametros")
 st.write("Elaborado por: Henry Japon")
 
 archivo=st.file_uploader("cargue su archivo")
+if archivo is not None:
+tabla=pd.read_csv(archivo)
+st.write(tabla)
