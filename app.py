@@ -1,2 +1,2 @@
 import streamlit as st
-st.TITLE("Bolsa de valores Quito BI")
+st.title("Bolsa de valores Quito BI")
