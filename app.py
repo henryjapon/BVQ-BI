@@ -3,8 +3,8 @@ st.title("Bolsa de valores Quito BI")
 st.sidebar.title("Parametros")
 st.write("Elaborado por: Henry Japon")
 
-archivo = st.file_uploader("cargue su archivo")
+archivo = st.file_uploader("Cargue su archivo")
 
 if archivo is not None:
-tabla = pd.read_csv(archivo)
-st.write(tabla)
+  tabla = pd.read_csv(archivo)
+  st.write(tabla)
